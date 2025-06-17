@@ -1,3 +1,4 @@
+
 const CACHE_NAME = 'seraph-cache';
 const OFFLINE_URLS = [
     '/offline.html',
@@ -46,5 +47,3 @@ self.addEventListener('activate', function(event) {
         })
     );
 });
-
-
